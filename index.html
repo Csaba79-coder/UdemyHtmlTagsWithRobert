@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Tags for Metadata and for Formatting and new HTML5 tags</title>
+        <!-- inside meta 4 attributes: name (for property), content (properties value), 
+            scheme (specifies a scheme to interpret what we specified in the content attribute), 
+            http-equiv (refreshing page and setting cookies etc. - what related to http response message headers)-->
+        <meta name="fashion designer" content="Mark Ecko">
+        <!-- They're not case sensitive, but they are useless from an SEO point 
+            https://www.mattcutts.com/blog/keywords-meta-tag-in-web-search/ 
+            If you search for "People" and "people", you'd get the same results. Word case isn't important in title tags, 
+            header tags, or any other tags, so they shouldn't matter in meta tag, either. So for all practical purposes, 
+            "people" and "People" is the same word for the crawler.-->
+        <meta name="keyword" content="HTML, CSS, html, css">
+        <!-- in content, the number means 3 sec! semicolon is a must!!! and after the sec takes us to the udemy's website!-->
+        <!--<meta http-equiv="refresh" content="3;url=https://www.udemy.com/">-->
+        <!--<base href="https://www.udemy.com/courses/personal-development/career-development/" target="_blank">-->
+        <base href="https://csaba79-coder.github.io/images/" target="">
+    </head>
+
+    <body>
+        <img src="lone-tree.jpg">
+
+        <dialog open>Example dialog window</dialog>
+
+        <!-- only one main on a webpage! -->
+        <main>
+            <h1>Main heading</h1>
+            <p>Main text</p>
+        </main>
+
+        <!-- value of meter is in between 0 and 1 percent! it's a decimal  value! -->
+        <meter value="0.5"></meter>
+        <br>
+        <progress value="40" max="100"></progress>
+
+        <br>
+
+        <time>5:00</time>
+
+        <p>Very<wbr>llllllllllllloooooooooooooooooooooooooooooooooonnnnnnnnnnnnnnnnggggggggggggggg<wbr>example<wbr>
+            wwwwwwoooooooooooooooorrrrrrrrrrrrrrrdddddddddddddddd</p>
+
+        <script>alert("Example code")</script>
+        <noscript>
+            You will see this message if you disabled JavaScript in your browser!
+        </noscript>
+            
+        <p>Example text</p>
+        <hr> 
+        <p>Example text</p>
+
+        <p><abbr title="Buy one get one free!">BOGO </abbr>sale on pretzels.</p>
+
+        <address>
+            Website by Marc Ecko <br>
+            You can contact him at
+            <a href="https://ecko.com/">
+            Mark Ecko's official contact link</a>
+        </address>
+
+        <p>Example text content</p>
+        <p><bdo dir="rtl">Example text content</bdo></p>
+
+        <p>Example <del>text</del></p>
+
+        <p>This is a <ins>cool inserted </ins>text</p>
+
+        <p><dfn>Web development </dfn>is writing code to create webpages!</p>
+
+        <p>Use the keyboard shortcut <kbd>CTRL + C </kbd>to copy text on a webpage</p>
+
+        <p>The computer printed the output: <samp>result = 5</samp></p>
+        
+        <p>My favourite programming language is <s>HTML</s> CSS</p>
+
+        <q>This text is a short quote</q>
+        <q>To be, or not to be</q>
+
+        <br>
+
+        <q>This text is a short quote</q>
+        <br>
+        <q>To be, or not to be</q>
+        
+
+    </body>
+</html>
